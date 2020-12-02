@@ -24,7 +24,7 @@ public class logintest {
 	public void dologin() throws InterruptedException{
 		driver.get("http://gmail.com");
 		driver.findElement(By.id("identifierId")).sendKeys("abc.gmail.com");
-		
+		driver.findElement(By.xpath("//div[@class=\"VfPpkd-RLmnJb\"]")).click();
 		
 	}
 	
